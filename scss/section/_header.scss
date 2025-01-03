@@ -1,11 +1,11 @@
   .header {
     padding-top: 16px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 752px) {
     padding-top: 24px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1264px) {
     padding-top: 28px;
   }
 
@@ -23,7 +23,7 @@
     width: 45px;
     height: 35px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 752px) {
 width: 72px;
 height: 57px;
   }
@@ -32,13 +32,13 @@ height: 57px;
   &__list {
     display: none;
 
-     @media screen and (min-width: 768px) {
+     @media screen and (min-width: 752px) {
         display: flex;
         gap: 24px;
         align-items: center;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1264px) {
     gap: 48px;
   }
 
@@ -55,13 +55,13 @@ line-height: 1.2;
     width: 22px;
 height: 22px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 752px) {
 width: 24px;
 height: 24px;
 margin-left: 75px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1264px) {
     width: 28px;
 height: 28px;
 margin-left: 306px;
@@ -72,7 +72,7 @@ margin-left: 306px;
   background: none;
   border: transparent;
   margin-left: 14px;
-  @media screen and (min-width: 768px)  {
+  @media screen and (min-width: 752px)  {
     display: none;
    }
   }
