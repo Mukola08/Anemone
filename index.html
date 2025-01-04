@@ -36,13 +36,13 @@
               <a href="#about" class="header__link">About us</a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">Store</a>
+              <a href="#store" class="header__link">Store</a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">Delivery</a>
+              <a href="#delivery" class="header__link">Delivery</a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">Blog</a>
+              <a href="#blog" class="header__link">Blog</a>
             </li>
           </ul>
         </nav>
@@ -71,13 +71,13 @@
                 <a href="#about" class="menu__link">About us</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Store</a>
+                <a href="#store" class="menu__link">Store</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Delivery</a>
+                <a href="#delivery" class="menu__link">Delivery</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Blog</a>
+                <a href="#blog" class="menu__link">Blog</a>
               </li>
             </ul>
           </nav>
@@ -154,22 +154,35 @@
           <div class="about__line"></div>
         </div>
         <ul class="about__list">
-          <li class="about__item"><p class="about__text">We are a minimalistic flower studio. We love people and flowers. Therefore, every day we give people the beauty and joy creating stylish and modern masterpieces. Every bouquet we create is unique as you are.</p></li>
+          <li class="about__item">
+            <p class="about__text">
+              We are a minimalistic flower studio. We love people and flowers.
+              Therefore, every day we give people the beauty and joy creating
+              stylish and modern masterpieces. Every bouquet we create is unique
+              as you are.
+            </p>
+          </li>
           <li class="about__item">
             <picture>
               <source
-                srcset="./img/dekstop/about-dekstop@2x.webp 2x,
-                     ./img/dekstop/about-dekstop@1x.webp 1x"
+                srcset="
+                  ./img/dekstop/about-dekstop@2x.webp 2x,
+                  ./img/dekstop/about-dekstop@1x.webp 1x
+                "
                 media="(min-width: 1264px)"
               />
               <source
-                srcset="./img/tablet/about-tablet@2x.webp 2x,
-                     ./img/tablet/about-tablet@1x.webp 1x"
+                srcset="
+                  ./img/tablet/about-tablet@2x.webp 2x,
+                  ./img/tablet/about-tablet@1x.webp 1x
+                "
                 media="(min-width: 752px)"
               />
               <source
-                srcset="./img/mobile/about-mobile@2x.webp 2x,
-                     ./img/mobile/about-mobile@1x.webp 1x"
+                srcset="
+                  ./img/mobile/about-mobile@2x.webp 2x,
+                  ./img/mobile/about-mobile@1x.webp 1x
+                "
                 media="(max-width: 752px)"
               />
               <img src="./img/about.jpg" alt="about" class="abaut__img" />
@@ -178,73 +191,317 @@
         </ul>
       </div>
     </section>
-    <section class="store">
+    <section class="store" id="store">
       <div class="container">
         <div class="store__box">
           <h2 class="store__title">STORE</h2>
           <div class="store__line"></div>
+        </div>
+        <ul class="store__list">
+          <li class="store__item">
+            <picture>
+              <source
+                srcset="
+                  ./img/dekstop/store_one-dekstop@2x.webp 2x,
+                  ./img/dekstop/store_one-dekstop@1x.webp 1x
+                "
+                media="(min-width: 1264px)"
+              />
+              <source
+                srcset="
+                  ./img/tablet/store_one-tablet@2x.webp 2x,
+                  ./img/tablet/store_one-tablet@1x.webp 1x
+                "
+                media="(min-width: 752px)"
+              />
+              <source
+                srcset="
+                  ./img/mobile/store_one-mobile@2x.webp 2x,
+                  ./img/mobile/store_one-mobile@1x.webp 1x
+                "
+                media="(max-width: 752px)"
+              />
+              <img
+                src="./img/store_one.jpg"
+                alt="photo_one"
+                class="store__img"
+              />
+            </picture>
+            <div class="store__bax">
+              <h3 class="store__paragraph">compliments</h3>
+              <div class="store__liny"></div>
+            </div>
+            <p class="store__text">from &#36;15</p>
+          </li>
+          <li class="store__item">
+            <picture>
+              <source
+                srcset="
+                  ./img/dekstop/store_two-dekstop@2x.webp 2x,
+                  ./img/dekstop/store_two-dekstop@1x.webp 1x
+                "
+                media="(min-width: 1264px)"
+              />
+              <source
+                srcset="
+                  ./img/tablet/store_two-tablet@2x.webp 2x,
+                  ./img/tablet/store_two-tablet@1x.webp 1x
+                "
+                media="(min-width: 752px)"
+              />
+              <source
+                srcset="
+                  ./img/mobile/store_two-mobile@2x.webp 2x,
+                  ./img/mobile/store_two-mobile@1x.webp 1x
+                "
+                media="(max-width: 752px)"
+              />
+              <img
+                src="./img/store_two.jpg"
+                alt="photo_two"
+                class="store__img"
+              />
+            </picture>
+            <div class="store__bax">
+              <h3 class="store__paragraph">bouquets size S</h3>
+              <div class="store__linyr"></div>
+            </div>
+            <p class="store__text">from &#36;25</p>
+          </li>
+          <li class="store__item">
+            <picture>
+              <source
+                srcset="
+                  ./img/dekstop/store_three-dekstop@2x.webp 2x,
+                  ./img/dekstop/store_three-dekstop@1x.webp 1x
+                "
+                media="(min-width: 1264px)"
+              />
+              <source
+                srcset="
+                  ./img/tablet/store_three-tablet@2x.webp 2x,
+                  ./img/tablet/store_three-tablet@1x.webp 1x
+                "
+                media="(min-width: 752px)"
+              />
+              <source
+                srcset="
+                  ./img/mobile/store_three-mobile@2x.webp 2x,
+                  ./img/mobile/store_three-mobile@1x.webp 1x
+                "
+                media="(max-width: 752px)"
+              />
+              <img
+                src="./img/store_three.jpg"
+                alt="photo_three"
+                class="store__img"
+              />
+            </picture>
+            <div class="store__bax">
+              <h3 class="store__paragraph">bouquets size M</h3>
+              <div class="store__liner"></div>
+            </div>
+            <p class="store__text">from &#36;45</p>
+          </li>
+          <li class="store__item">
+            <picture>
+              <source
+                srcset="
+                  ./img/dekstop/store_four-dekstop@2x.webp 2x,
+                  ./img/dekstop/store_four-dekstop@1x.webp 1x
+                "
+                media="(min-width: 1264px)"
+              />
+              <source
+                srcset="
+                  ./img/tablet/store_four-tablet@2x.webp 2x,
+                  ./img/tablet/store_four-tablet@1x.webp 1x
+                "
+                media="(min-width: 752px)"
+              />
+              <source
+                srcset="
+                  ./img/mobile/store_four-mobile@2x.webp 2x,
+                  ./img/mobile/store_four-mobile@1x.webp 1x
+                "
+                media="(max-width: 752px)"
+              />
+              <img
+                src="./img/store_four.jpg"
+                alt="photo_four"
+                class="store__img"
+              />
+            </picture>
+            <div class="store__bax">
+              <h3 class="store__paragraph">bouquets size L</h3>
+              <div class="store__linir"></div>
+            </div>
+            <p class="store__text">from &#36;60</p>
+          </li>
+        </ul>
+        <div class="store__btn">
+          <button class="store__button" type="submit">Order flowers</button>
+        </div>
+      </div>
+    </section>
+    <section class="delivery" id="delivery">
+      <div class="container">
+        <div class="delivery__box">
+          <h2 class="delivery__title">DELIVERY</h2>
+          <div class="delivery__line"></div>
+        </div>
+        <ul class="delivery__list">
+          <li class="delivery__item">
+            <h3 class="delivery__paragrap">1</h3>
+            <p class="delivery__text">
+              Choose your bouquet and make an order on website
+            </p>
+          </li>
+          <li class="delivery__item">
+            <h3 class="delivery__paragraph">2</h3>
+            <p class="delivery__text">
+              Wait for the call to clarify the details of the order. You can pay
+              online or to the courier
+            </p>
+          </li>
+          <li class="delivery__item">
+            <h3 class="delivery__paragraph">3</h3>
+            <p class="delivery__text">
+              Wait for the delivery at the selected time or pick up the order
+              from the store
+            </p>
+          </li>
+          <li class="delivery__item">
+            <h3 class="delivery__paragraph">4</h3>
+            <p class="delivery__text">Make someone happy or enjoy yourself</p>
+          </li>
+        </ul>
+        <picture>
+          <source
+            srcset="./img/dekstop/delivery-dekstop@2x.webp 2x, ./img/dekstop/delivery-dekstop@1x.webp 1x"
+            media="(min-width: 1264px)"
+          />
+          <source
+            srcset="./img/tablet/delivery-tablet@2x.webp 2x, ./img/tablet/delivery-tablet@1x.webp 1x"
+            media="(min-width: 752px)"
+          />
+          <source
+            srcset="./img/mobile/delivery-mobile@2x.webp 2x, ./img/mobile/delivery-mobile@1x.webp 1x"
+            media="(max-width: 1264px)"
+          />
+          <img src="./img/delivery.jpg" alt="delivery" class="delivery__img">
+        </picture>
+      </div>
+    </section>
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="blog__box">
+          <h2 class="blog__title">BLOG</h2>
+          <div class="blog__line"></div>
           </div>
-          <ul class="store__list">
-            <li class="store__item">
+          <ul class="blog__list">
+            <li class="blog__item">
               <picture>
-                <source srcset="./img/dekstop/store_one-dekstop@2x.webp 2x, ./img/dekstop/store_one-dekstop@1x.webp 1x" media="(min-width: 1264px)">
-                <source srcset="./img/tablet/store_one-tablet@2x.webp 2x, ./img/tablet/store_one-tablet@1x.webp 1x" media="(min-width: 752px)">
-                <source srcset="./img/mobile/store_one-mobile@2x.webp 2x, ./img/mobile/store_one-mobile@1x.webp 1x" media="(max-width: 752px)">
-                <img src="./img/store_one.jpg" alt="photo_one" class="store__img">
+                <source
+            srcset="./img/dekstop/blog_one-dekstop@2x.webp 2x,
+                    ./img/dekstop/blog_one-dekstop@1x.webp 1x"
+            media="(min-width: 1264px)"/>
+            <source
+            srcset="./img/tablet/blog_one-tablet@2x.webp 2x,
+                    ./img/tablet/blog_one-tablet@1x.webp 1x"
+            media="(min-width: 752px)"/>
+            <source
+            srcset="./img/mobile/blog_one-mobile@2x.webp 2x,
+                ./img/mobile/blog_one-mobile@1x.webp 1x"
+            media="(max-width: 752px)"/>
+            <img src="./img/blog_one.jpg" alt="blog-one" class="blog__img">
               </picture>
-              <div class="store__bax">
-                <h3 class="store__paragraph">compliments</h3>
-                <div class="store__liny"></div>
-              </div>
-              <p class="store__text">from &#36;15</p>
             </li>
-            <li class="store__item">
+            <li class="blog__item">
               <picture>
-                <source srcset="./img/dekstop/store_two-dekstop@2x.webp 2x, ./img/dekstop/store_two-dekstop@1x.webp 1x" media="(min-width: 1264px)">
-                <source srcset="./img/tablet/store_two-tablet@2x.webp 2x, ./img/tablet/store_two-tablet@1x.webp 1x" media="(min-width: 752px)">
-                <source srcset="./img/mobile/store_two-mobile@2x.webp 2x, ./img/mobile/store_two-mobile@1x.webp 1x" media="(max-width: 752px)">
-                <img src="./img/store_two.jpg" alt="photo_two" class="store__img">
+                <source
+            srcset="./img/dekstop/blog_two-dekstop@2x.webp 2x,
+                    ./img/dekstop/blog_two-dekstop@1x.webp 1x"
+            media="(min-width: 1264px)"/>
+            <source
+            srcset="./img/tablet/blog_two-tablet@2x.webp 2x,
+                    ./img/tablet/blog_two-tablet@1x.webp 1x"
+            media="(min-width: 752px)"/>
+            <source
+            srcset="./img/mobile/blog_two-mobile@2x.webp 2x,
+                    ./img/mobile/blog_two-mobile@1x.webp 1x"
+            media="(max-width: 752px)"/>
+            <img src="./img/blog_two.jpg" alt="blog-two" class="blog__img">
               </picture>
-              <div class="store__bax">
-                <h3 class="store__paragraph">bouquets size S</h3>
-                <div class="store__linyr"></div>
-              </div>
-               <p class="store__text">from &#36;25</p>
             </li>
-            <li class="store__item">
-             <picture>
-                <source srcset="./img/dekstop/store_three-dekstop@2x.webp 2x, ./img/dekstop/store_three-dekstop@1x.webp 1x" media="(min-width: 1264px)">
-                <source srcset="./img/tablet/store_three-tablet@2x.webp 2x, ./img/tablet/store_three-tablet@1x.webp 1x" media="(min-width: 752px)">
-                <source srcset="./img/mobile/store_three-mobile@2x.webp 2x, ./img/mobile/store_three-mobile@1x.webp 1x" media="(max-width: 752px)">
-                <img src="./img/store_three.jpg" alt="photo_three" class="store__img">
-              </picture>
-              <div class="store__bax">
-                <h3 class="store__paragraph">bouquets size M</h3>
-                <div class="store__liner"></div>
-              </div>
-               <p class="store__text">from &#36;45</p>
-            </li>
-            <li class="store__item">
+            <li class="blog__item">
               <picture>
-                <source srcset="./img/dekstop/store_four-dekstop@2x.webp 2x, ./img/dekstop/store_four-dekstop@1x.webp 1x" media="(min-width: 1264px)">
-                <source srcset="./img/tablet/store_four-tablet@2x.webp 2x, ./img/tablet/store_four-tablet@1x.webp 1x" media="(min-width: 752px)">
-                <source srcset="./img/mobile/store_four-mobile@2x.webp 2x, ./img/mobile/store_four-mobile@1x.webp 1x" media="(max-width: 752px)">
-                <img src="./img/store_four.jpg" alt="photo_four" class="store__img">
+                <source
+            srcset="./img/dekstop/blog_three-dekstop@2x.webp 2x,
+                    ./img/dekstop/blog_three-dekstop@1x.webp 1x"
+            media="(min-width: 1264px)"/>
+            <source
+            srcset="./img/tablet/blog_three-tablet@2x.webp 2x,
+                    ./img/tablet/blog_three-tablet@1x.webp 1x"
+            media="(min-width: 752px)"/>
+            <source
+            srcset="./img/mobile/blog_three-mobile@2x.webp 2x,
+                    ./img/mobile/blog_three-mobile@1x.webp 1x"
+            media="(max-width: 752px)"/>
+            <img src="./img/blog_three.jpg" alt="blog-three" class="blog__img">
               </picture>
-              <div class="store__bax">
-                <h3 class="store__paragraph">bouquets size L</h3>
-                <div class="store__linir"></div>
-              </div>
-               <p class="store__text">from &#36;60</p>
             </li>
           </ul>
-          <div class="store__btn">
-          <button class="store__button" type="submit">
-            Order flowers
-          </button>
+          <p class="blog__text">Follow to our newsletter</p>
+          <div class="blog__button">
+          <button type="button" class="blog__btn">Subscribe</button>
           </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container footer__box">
+      <a href="./index.html" class="footer__logo">
+        <svg class="footer__img">
+          <use href="./img/symbol-defs.svg#icon-logo"></use>
+        </svg>
+      </a>
+        <div class="footer__bux">
+      <ul class="footer__list">
+        <li class="footer__item"><h3 class="footer__title">Navigation</h3></li>
+        <li class="footer__item"><a href="#anemone" class="footer__link">Anemone</a></li>
+        <li class="footer__item"><a href="#about" class="footer__link">About us</a></li>
+        <li class="footer__item"><a href="#store" class="footer__link">Store</a></li>
+        <li class="footer__item"><a href="#delivery" class="footer__link">Delivery</a></li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__item"><h3 class="footer__title">Opening times</h3></li>
+        <li class="footer__eatem"><a href="#" class="footer__link">Every day  9:00 - 22:00</a></li>
+      </ul>
+      </div>
+      <div class="footer__bax">
+      <address class="footer__adres">
+      <ul class="footer__list">
+        <li class="footer__item"><h3 class="footer__title">Contacts</h3></li>
+        <li class="footer__item"><a href="tel: +380631234567" class="footer__link">+38 063 123 45 67</a></li>
+        <li class="footer__eetem"><a href="mailto:anemonestudio@example.com" class="footer__link">anemonestudio@example.com</a></li>
+        <li class="footer__itam"><a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A0%D0%B5%D0%B9%D1%82%D0%B0%D1%80%D1%81%D1%8C%D0%BA%D0%B0,+11,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4512576,30.5125288,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ce5bddfc5105:0x5d4781b191539b53!8m2!3d50.4512576!4d30.5125288!16s%2Fg%2F11vjlztsr7?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="footer__link">Reitarska Street, 11
+Kyiv, Ukraine</a></li>
+      </ul>
+      </address>
+      <div class="footer__date">
+        <a href="https://www.facebook.com/?locale=uk_UA" class="footerleenk" target="_blank">
+          <svg class="footer__icon">
+            <use href="./img/symbol-defs.svg#icon-facebook"></use>
+          </svg>
+        </a><a href="https://www.instagram.com/" class="footerleenk" target="_blank">
+          <svg class="footer__icon">
+            <use href="./img/symbol-defs.svg#icon-instagram"></use>
+          </svg>
+        </a>
+        </div>
+      </div>
+      </div>
+    </footer>
     <script src="./js/modal-header.js"></script>
   </body>
 </html>
