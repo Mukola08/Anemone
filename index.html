@@ -46,11 +46,11 @@
             </li>
           </ul>
         </nav>
-        <a href="tel:+380961111111" class="header__phone">
+        <button type="button" class="header__phone" data-modal-header-open>
           <svg class="header__img">
             <use href="./img/symbol-defs.svg#icon-phone"></use>
           </svg>
-        </a>
+        </button>
         <button type="button" class="header__button" modal-header-open>
           <svg class="header__eacon">
             <use href="./img/symbol-defs.svg#icon-menu"></use>
@@ -340,7 +340,9 @@
           </li>
         </ul>
         <div class="store__btn">
-          <button class="store__button" type="submit" data-modal-open>Order flowers</button>
+          <button class="store__button" type="submit" data-modal-open>
+            Order flowers
+          </button>
         </div>
       </div>
     </section>
@@ -378,18 +380,27 @@
         </ul>
         <picture>
           <source
-            srcset="./img/dekstop/delivery-dekstop@2x.webp 2x, ./img/dekstop/delivery-dekstop@1x.webp 1x"
+            srcset="
+              ./img/dekstop/delivery-dekstop@2x.webp 2x,
+              ./img/dekstop/delivery-dekstop@1x.webp 1x
+            "
             media="(min-width: 1264px)"
           />
           <source
-            srcset="./img/tablet/delivery-tablet@2x.webp 2x, ./img/tablet/delivery-tablet@1x.webp 1x"
+            srcset="
+              ./img/tablet/delivery-tablet@2x.webp 2x,
+              ./img/tablet/delivery-tablet@1x.webp 1x
+            "
             media="(min-width: 752px)"
           />
           <source
-            srcset="./img/mobile/delivery-mobile@2x.webp 2x, ./img/mobile/delivery-mobile@1x.webp 1x"
+            srcset="
+              ./img/mobile/delivery-mobile@2x.webp 2x,
+              ./img/mobile/delivery-mobile@1x.webp 1x
+            "
             media="(max-width: 1264px)"
           />
-          <img src="./img/delivery.jpg" alt="delivery" class="delivery__img">
+          <img src="./img/delivery.jpg" alt="delivery" class="delivery__img" />
         </picture>
       </div>
     </section>
@@ -398,137 +409,259 @@
         <div class="blog__box">
           <h2 class="blog__title">BLOG</h2>
           <div class="blog__line"></div>
-          </div>
-          <ul class="blog__list">
-            <li class="blog__item">
-              <picture>
-                <source
-            srcset="./img/dekstop/blog_one-dekstop@2x.webp 2x,
-                    ./img/dekstop/blog_one-dekstop@1x.webp 1x"
-            media="(min-width: 1264px)"/>
-            <source
-            srcset="./img/tablet/blog_one-tablet@2x.webp 2x,
-                    ./img/tablet/blog_one-tablet@1x.webp 1x"
-            media="(min-width: 752px)"/>
-            <source
-            srcset="./img/mobile/blog_one-mobile@2x.webp 2x,
-                ./img/mobile/blog_one-mobile@1x.webp 1x"
-            media="(max-width: 752px)"/>
-            <img src="./img/blog_one.jpg" alt="blog-one" class="blog__img">
-              </picture>
-            </li>
-            <li class="blog__item">
-              <picture>
-                <source
-            srcset="./img/dekstop/blog_two-dekstop@2x.webp 2x,
-                    ./img/dekstop/blog_two-dekstop@1x.webp 1x"
-            media="(min-width: 1264px)"/>
-            <source
-            srcset="./img/tablet/blog_two-tablet@2x.webp 2x,
-                    ./img/tablet/blog_two-tablet@1x.webp 1x"
-            media="(min-width: 752px)"/>
-            <source
-            srcset="./img/mobile/blog_two-mobile@2x.webp 2x,
-                    ./img/mobile/blog_two-mobile@1x.webp 1x"
-            media="(max-width: 752px)"/>
-            <img src="./img/blog_two.jpg" alt="blog-two" class="blog__img">
-              </picture>
-            </li>
-            <li class="blog__item">
-              <picture>
-                <source
-            srcset="./img/dekstop/blog_three-dekstop@2x.webp 2x,
-                    ./img/dekstop/blog_three-dekstop@1x.webp 1x"
-            media="(min-width: 1264px)"/>
-            <source
-            srcset="./img/tablet/blog_three-tablet@2x.webp 2x,
-                    ./img/tablet/blog_three-tablet@1x.webp 1x"
-            media="(min-width: 752px)"/>
-            <source
-            srcset="./img/mobile/blog_three-mobile@2x.webp 2x,
-                    ./img/mobile/blog_three-mobile@1x.webp 1x"
-            media="(max-width: 752px)"/>
-            <img src="./img/blog_three.jpg" alt="blog-three" class="blog__img">
-              </picture>
-            </li>
-          </ul>
-          <p class="blog__text">Follow to our newsletter</p>
-          <div class="blog__button">
+        </div>
+        <ul class="blog__list">
+          <li class="blog__item">
+            <picture>
+              <source
+                srcset="
+                  ./img/dekstop/blog_one-dekstop@2x.webp 2x,
+                  ./img/dekstop/blog_one-dekstop@1x.webp 1x
+                "
+                media="(min-width: 1264px)"
+              />
+              <source
+                srcset="
+                  ./img/tablet/blog_one-tablet@2x.webp 2x,
+                  ./img/tablet/blog_one-tablet@1x.webp 1x
+                "
+                media="(min-width: 752px)"
+              />
+              <source
+                srcset="
+                  ./img/mobile/blog_one-mobile@2x.webp 2x,
+                  ./img/mobile/blog_one-mobile@1x.webp 1x
+                "
+                media="(max-width: 752px)"
+              />
+              <img src="./img/blog_one.jpg" alt="blog-one" class="blog__img" />
+            </picture>
+          </li>
+          <li class="blog__item">
+            <picture>
+              <source
+                srcset="
+                  ./img/dekstop/blog_two-dekstop@2x.webp 2x,
+                  ./img/dekstop/blog_two-dekstop@1x.webp 1x
+                "
+                media="(min-width: 1264px)"
+              />
+              <source
+                srcset="
+                  ./img/tablet/blog_two-tablet@2x.webp 2x,
+                  ./img/tablet/blog_two-tablet@1x.webp 1x
+                "
+                media="(min-width: 752px)"
+              />
+              <source
+                srcset="
+                  ./img/mobile/blog_two-mobile@2x.webp 2x,
+                  ./img/mobile/blog_two-mobile@1x.webp 1x
+                "
+                media="(max-width: 752px)"
+              />
+              <img src="./img/blog_two.jpg" alt="blog-two" class="blog__img" />
+            </picture>
+          </li>
+          <li class="blog__item">
+            <picture>
+              <source
+                srcset="
+                  ./img/dekstop/blog_three-dekstop@2x.webp 2x,
+                  ./img/dekstop/blog_three-dekstop@1x.webp 1x
+                "
+                media="(min-width: 1264px)"
+              />
+              <source
+                srcset="
+                  ./img/tablet/blog_three-tablet@2x.webp 2x,
+                  ./img/tablet/blog_three-tablet@1x.webp 1x
+                "
+                media="(min-width: 752px)"
+              />
+              <source
+                srcset="
+                  ./img/mobile/blog_three-mobile@2x.webp 2x,
+                  ./img/mobile/blog_three-mobile@1x.webp 1x
+                "
+                media="(max-width: 752px)"
+              />
+              <img
+                src="./img/blog_three.jpg"
+                alt="blog-three"
+                class="blog__img"
+              />
+            </picture>
+          </li>
+        </ul>
+        <p class="blog__text">Follow to our newsletter</p>
+        <div class="blog__button">
           <button type="submit" class="blog__btn">Subscribe</button>
-          </div>
+        </div>
       </div>
     </section>
     <footer class="footer">
       <div class="container footer__box">
-      <a href="./index.html" class="footer__logo">
-        <svg class="footer__img">
-          <use href="./img/symbol-defs.svg#icon-logo"></use>
-        </svg>
-      </a>
-        <div class="footer__bux">
-      <ul class="footer__list">
-        <li class="footer__item"><h3 class="footer__title">Navigation</h3></li>
-        <li class="footer__item"><a href="#anemone" class="footer__link">Anemone</a></li>
-        <li class="footer__item"><a href="#about" class="footer__link">About us</a></li>
-        <li class="footer__item"><a href="#store" class="footer__link">Store</a></li>
-        <li class="footer__item"><a href="#delivery" class="footer__link">Delivery</a></li>
-      </ul>
-      <ul class="footer__list">
-        <li class="footer__item"><h3 class="footer__title">Opening times</h3></li>
-        <li class="footer__eatem"><a href="#" class="footer__link">Every day  9:00 - 22:00</a></li>
-      </ul>
-      </div>
-      <div class="footer__bax">
-      <address class="footer__adres">
-      <ul class="footer__list">
-        <li class="footer__item"><h3 class="footer__title">Contacts</h3></li>
-        <li class="footer__item"><a href="tel: +380631234567" class="footer__link">+38 063 123 45 67</a></li>
-        <li class="footer__eetem"><a href="mailto:anemonestudio@example.com" class="footer__link">anemonestudio@example.com</a></li>
-        <li class="footer__itam"><a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A0%D0%B5%D0%B9%D1%82%D0%B0%D1%80%D1%81%D1%8C%D0%BA%D0%B0,+11,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4512576,30.5125288,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ce5bddfc5105:0x5d4781b191539b53!8m2!3d50.4512576!4d30.5125288!16s%2Fg%2F11vjlztsr7?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="footer__link">Reitarska Street, 11
-Kyiv, Ukraine</a></li>
-      </ul>
-      </address>
-      <div class="footer__date">
-        <a href="https://www.facebook.com/?locale=uk_UA" class="footerleenk" target="_blank">
-          <svg class="footer__icon">
-            <use href="./img/symbol-defs.svg#icon-facebook"></use>
-          </svg>
-        </a><a href="https://www.instagram.com/" class="footerleenk" target="_blank">
-          <svg class="footer__icon">
-            <use href="./img/symbol-defs.svg#icon-instagram"></use>
+        <a href="./index.html" class="footer__logo">
+          <svg class="footer__img">
+            <use href="./img/symbol-defs.svg#icon-logo"></use>
           </svg>
         </a>
+        <div class="footer__bux">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h3 class="footer__title">Navigation</h3>
+            </li>
+            <li class="footer__item">
+              <a href="#anemone" class="footer__link">Anemone</a>
+            </li>
+            <li class="footer__item">
+              <a href="#about" class="footer__link">About us</a>
+            </li>
+            <li class="footer__item">
+              <a href="#store" class="footer__link">Store</a>
+            </li>
+            <li class="footer__item">
+              <a href="#delivery" class="footer__link">Delivery</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h3 class="footer__title">Opening times</h3>
+            </li>
+            <li class="footer__eatem">
+              <a href="#" class="footer__link">Every day 9:00 - 22:00</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__bax">
+          <address class="footer__adres">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <h3 class="footer__title">Contacts</h3>
+              </li>
+              <li class="footer__item">
+                <a href="tel: +380631234567" class="footer__link"
+                  >+38 063 123 45 67</a
+                >
+              </li>
+              <li class="footer__eetem">
+                <a href="mailto:anemonestudio@example.com" class="footer__link"
+                  >anemonestudio@example.com</a
+                >
+              </li>
+              <li class="footer__itam">
+                <a
+                  href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A0%D0%B5%D0%B9%D1%82%D0%B0%D1%80%D1%81%D1%8C%D0%BA%D0%B0,+11,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4512576,30.5125288,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ce5bddfc5105:0x5d4781b191539b53!8m2!3d50.4512576!4d30.5125288!16s%2Fg%2F11vjlztsr7?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  class="footer__link"
+                  >Reitarska Street, 11 Kyiv, Ukraine</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="footer__date">
+            <a
+              href="https://www.facebook.com/?locale=uk_UA"
+              class="footerleenk"
+              target="_blank"
+            >
+              <svg class="footer__icon">
+                <use href="./img/symbol-defs.svg#icon-facebook"></use>
+              </svg> </a
+            ><a
+              href="https://www.instagram.com/"
+              class="footerleenk"
+              target="_blank"
+            >
+              <svg class="footer__icon">
+                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
-      </div>
     </footer>
-     <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal modal__bax">
         <button type="button" class="modal__btn" data-modal-close>
           <svg class="modal__svg">
             <use href="./img/symbol-defs.svg#icon-dagger"></use>
           </svg>
         </button>
-       <picture>
-        <source srcset="./img/dekstop/modal-dekstop@2x.webp 2x, ./img/dekstop/modal-dekstop@1x.webp 1x" media="(min-width: 1264px)">
-        <source srcset="./img/tablet/modal-tablet@2x.webp 2x, ./img/tablet/modal-tablet@1x.webp 1x" media="(min-width: 752px)">
-        <source srcset="./img/mobile/modal-mobile@2x.webp 2x, ./img/mobile/modal-mobile@1x.webp 1x" media="(max-width: 752px)">
-        <img src="./img/modal.jpg" alt="modal-fons" class="modal__img">
-       </picture>
+        <picture>
+          <source
+            srcset="
+              ./img/dekstop/modal-dekstop@2x.webp 2x,
+              ./img/dekstop/modal-dekstop@1x.webp 1x
+            "
+            media="(min-width: 1264px)"
+          />
+          <source
+            srcset="
+              ./img/tablet/modal-tablet@2x.webp 2x,
+              ./img/tablet/modal-tablet@1x.webp 1x
+            "
+            media="(min-width: 752px)"
+          />
+          <source
+            srcset="
+              ./img/mobile/modal-mobile@2x.webp 2x,
+              ./img/mobile/modal-mobile@1x.webp 1x
+            "
+            media="(max-width: 752px)"
+          />
+          <img src="./img/modal.jpg" alt="modal-fons" class="modal__img" />
+        </picture>
         <div class="modal__box">
-        <h4 class="modal__title">Follow to our newsletter</h4>
-        <p class="modal__text">Be the first  to get exclusive offers and the latest  news on our product directly in your box.</p>
-        <form class="modal__form">
+          <h4 class="modal__title">Follow to our newsletter</h4>
+          <p class="modal__text">
+            Be the first to get exclusive offers and the latest news on our
+            product directly in your box.
+          </p>
+          <form class="modal__form">
             <label class="modal__lab"
               >Email
-              <input type="email" class="modal__inp" required placeholder="Your email"/>
+              <input
+                type="email"
+                class="modal__inp"
+                required
+                placeholder="Your email"
+              />
             </label>
             <button type="submit" class="modal__button">Subscribe</button>
-        </form>
+          </form>
         </div>
+      </div>
+    </div>
+    <div class="backphone is-hidden" data-header-modal>
+      <div class="modal">
+        <button type="button" class="model__btn" data-modal-header-close>
+          <svg class="model__icon">
+            <use href="./img/symbol-defs.svg#icon-dagger"></use>
+          </svg>
+        </button>
+        <h2 class="model__title">Contact us</h2>
+        <p class="model__text">
+          If you have any additional questions or you want to clarify something
+          before you make an order please fill in your contact details. We will
+          call you back.
+        </p>
+        <form class="model__form">
+          <label class="model__lab">
+            Name
+            <input type="text" class="model__input" placeholder="Your name"/>
+            </label>
+            <label class="model__lab">
+            Email
+              <input type="text" class="model__input" placeholder="Your email"/>
+          </label>
+          <button type="submit" class="model__button">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
     <script src="./js/modal-header.js"></script>
+    <script src="./js/header-phone.js"></script>
   </body>
 </html>

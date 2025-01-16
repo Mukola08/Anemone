@@ -71,10 +71,12 @@ margin-right: 14px;
   &__img {
     width: 145px;
 height: 274px;
+border-radius: 226px;
 
   @media screen and (min-width: 752px) {
     width: 390px;
 height: 636px;
+
   }
   }
 
@@ -82,6 +84,7 @@ height: 636px;
     width: 64px;
 height: 64px;
 margin-left: 8px;
+border-radius: 50%;
 
   @media screen and (min-width: 752px) {
     width: 145px;
