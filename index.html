@@ -88,10 +88,10 @@
       <div class="container hero__bax">
         <h1 class="hero__title">ANEMONE</h1>
         <ul class="hero__list">
-          <li class="hero__item hero__pozi">
+          <li class="hero__eatem">
             <p class="hero__text">flower studio</p>
           </li>
-          <li class="hero__item hero__gol">
+          <li class="hero__item ">
             <picture>
               <source
                 srcset="
@@ -117,8 +117,7 @@
               <img src="./img/hero.jpg" alt="hero-fons" class="hero__img" />
             </picture>
           </li>
-          <li class="hero__item"></li>
-          <li class="hero__item hero__gol">
+          <li class="hero__eetem ">
             <picture>
               <source
                 srcset="
@@ -635,7 +634,7 @@
       </div>
     </div>
     <div class="backphone is-hidden" data-header-modal>
-      <div class="modal">
+      <div class="model model__box">
         <button type="button" class="model__btn" data-modal-header-close>
           <svg class="model__icon">
             <use href="./img/symbol-defs.svg#icon-dagger"></use>
@@ -650,11 +649,11 @@
         <form class="model__form">
           <label class="model__lab">
             Name
-            <input type="text" class="model__input" placeholder="Your name"/>
+            <input type="text" required class="model__input" placeholder="Your name"/>
             </label>
             <label class="model__lab">
             Email
-              <input type="text" class="model__input" placeholder="Your email"/>
+              <input type="email" required class="model__input" placeholder="Your email"/>
           </label>
           <button type="submit" class="model__button">Send</button>
         </form>
